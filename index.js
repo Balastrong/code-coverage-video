@@ -1,0 +1,14 @@
+function calculateSum(numbers) {
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+
+  return sum;
+}
+
+module.exports = calculateSum;
+
+const result = calculateSum([10, 20, 30]);
+
+console.log(result);

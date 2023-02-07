@@ -1,0 +1,19 @@
+{
+  "name": "code-coverage-video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.4.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2"
+  }
+}
